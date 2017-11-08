@@ -1,0 +1,340 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, 
+legend, input, button, textarea, blockquote, th, td, p {
+    margin: 0;
+    padding: 0;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background: #F7F9F8;
+}
+.wrapper{
+	position: relative;
+}
+.wrapper ul{
+	height: 500px;
+}
+/*.wrapper:after{
+	content: ".";
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+	display: block;
+}*/
+.wrapper ul li{
+    width: 100%;
+    height:500px;
+    position: absolute;
+}
+.wrapper ol{
+	position: absolute;
+    left: 540px;
+    top: 460px;
+    width: 230px;
+}
+.wrapper ol li{
+	float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: default;
+    background-color: #abc;
+    list-style: none;
+}
+.wrapper ol li.current{
+	background: #5baa10;
+}
+#fenl{
+	width: 180px;
+	height: 40px;
+	background: #008842;
+	z-index: 99998;
+	position: absolute;
+	top: 109px;
+	left: 30px;
+	text-align: center;
+	line-height: 40px;
+}
+#fenl a{
+	color: #fff;
+	
+}
+#fenl2{
+	width: 485px;
+	height: 545px;
+	position: absolute;
+	top: 109px;
+	left: 30px;
+	z-index: 9999;
+}
+#fenl2 ul{
+	background: #fcf7f2;
+	width: 180px;
+	margin-top: 39px;
+	display: none;
+}
+#fenl2 ul li{
+	padding-left: 18px;
+	height: 40px;
+	line-height: 40px;
+	color: #444;
+	font-size: 13px;
+	border: 1px solid transparent;
+}
+#fenl2 ul li s{
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 16px;
+}
+#fenl2 ul li b{
+	margin-right: 15px;
+	display: none;
+	float: right;
+}
+#fenl2 ul li:hover{
+	background:#fff;
+	border:1px solid #bbb;
+	color:#008842;
+}
+#fenl2 ul li:hover b{
+	display: block;
+}
+#fenl2 ul li:nth-child(1) s{
+	background: url(../img/nav-icon.png) -3px -3px;
+}
+#fenl2 ul li:nth-child(2) s{
+	background: url(../img/nav-icon.png) -27px -3px;
+}
+#fenl2 ul li:nth-child(3) s{
+	background: url(../img/nav-icon.png) -51px -3px;
+}
+#fenl2 ul li:nth-child(4) s{
+	background: url(../img/nav-icon.png) -73px -3px;
+}
+#fenl2 ul li:nth-child(5) s{
+	background: url(../img/nav-icon.png) -3px -3px;
+}
+#fenl2 ul li:nth-child(6) s{
+	background: url(../img/nav-icon.png) -98px -3px;
+}
+#fenl2 ul li:nth-child(7) s{
+	background: url(../img/nav-icon.png) -122px -3px;
+}
+#fenl2 ul li:nth-child(8) s{
+	background: url(../img/nav-icon.png) -145px -3px;
+}
+#fenl2 ul li:nth-child(9) s{
+	background: url(../img/nav-icon.png) -170px -3px;
+}
+#fenl2 ul li:nth-child(10) s{ 
+	background: url(../img/nav-icon.png) -196px -2px;
+}
+#fenl2 ul li:nth-child(11) s{ 
+	background: url(../img/nav-icon.png) -219px 0px;
+}
+#fenl2 ul li:nth-child(12) s{  
+	background: url(../img/nav-icon.png) -245px -4px;
+}
+#fenl2 ol li{
+	width: 235px;
+	height: 480px;
+	background: rgba(253,248,244,0.9);
+	position: absolute;
+	top: 0px;
+	left: 180px;
+	border: 1px solid #bbb;
+	padding-top:20px ;
+	padding-left: 20px;
+	display: none;
+}
+#fenl2 ol li h3{
+	color: #008842;
+	text-decoration: underline;
+	font-weight: 100;
+	margin-bottom: 12px;
+}
+#fenl2 ol li a{
+	color: #686868;
+	font-size: 12px;
+	margin-right: 33px;
+	line-height: 25px;
+}
+#fenl2 ol li a:hover{
+	color: #008842;
+}
+#fenl2 ol li img{
+	position: absolute;
+	bottom: 15px;
+}
+/*四小图*/
+#sibox{
+	width: 100%;
+	height: 335px;
+	background: #f7f9f8;
+}
+.si{
+	width: 1230px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-left: 33px;
+}
+.si1{
+	margin-right: 13px;
+	float: left;
+	position: relative;
+}
+.si11{
+	width: 270px;
+	height: 57px;
+	background: rgba(255,255,255,0.8);
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	text-align: center;
+	color: #545454;
+}
+.si11 h2{
+	font-size: 20px;
+	line-height: 27px;
+}
+.si11 p{
+	font-size: 14px;
+	line-height: 22px;
+}
+.si1:hover{
+	box-shadow: 0px 0px 7px #444;
+}
+.si1:hover .si11{
+	color: #F7F9F8;
+	background: #aaa;
+}
+/*楼层*/
+#lou{
+	width: 100%;
+}
+.lou1{
+	width: 1205px;
+	height: 500px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.nub s{
+	display: inline-block;
+	width: 38px;
+	height: 22px;
+	margin-right: 10px;
+	background: url(../img/floor_tit_icon.png) 0px 0px ;
+	text-decoration: none;
+	padding-left: 7px;
+	padding-top: 10px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+.nub b{
+	color: #fd603d;
+	cursor: pointer;
+	font-size: 18px;
+}
+.nub span{
+	float: right;
+}
+.nub span a{
+	font-size: 14px;
+	color: #4d4f4e;
+}
+.nub span a:hover{
+	text-decoration: underline;
+}
+.lou1img a{
+	display: inline-block;
+	float: left;
+	border: 1px solid #d5d5d5;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.sj a{
+	width: 170px;
+	height: 77px;
+	border: none;
+	border-bottom: 1px solid #d5d5d5;
+}
+.sj img{
+	margin-top: 12px;
+	margin-left: 10px;
+}
+.lou1img img{
+	transition: all 0.5s;
+}
+.lou1img img:hover{
+	transform: translateX(5px);
+}
+#lou li:nth-child(2) s{
+	background: url(../img/floor_tit_icon.png) -46px 0px ;
+}
+#lou li:nth-child(2) b{
+	color: #007f4d;
+}
+#lou li:nth-child(3) s{
+	background: url(../img/floor_tit_icon.png) -276px 0px ;
+}
+#lou li:nth-child(3) b{
+	color: #c5cc46;
+}
+#lou li:nth-child(4) s{
+	background: url(../img/floor_tit_icon.png) -184px 0px ;
+}
+#lou li:nth-child(4) b{
+	color: #45c6ce;
+}
+#lou li:nth-child(5) s{
+	background: url(../img/floor_tit_icon.png) -92px 0px ;
+}
+#lou li:nth-child(5) b{
+	color: #ffcc00;
+}
+#lou li:nth-child(6) s{
+	background: url(../img/floor_tit_icon.png) -138px 0px ;
+}
+#lou li:nth-child(6) b{
+	color: #e08683;
+}
+#lou li:nth-child(7) s{
+	background: url(../img/floor_tit_icon.png) -368px 0px ;
+}
+#lou li:nth-child(7) b{
+	color: #b84f00;
+}
+#lou li:nth-child(8) s{
+	background: url(../img/floor_tit_icon.png) -230px 0px ;
+}
+#lou li:nth-child(8) b{
+	color: #764e00;
+}
+#lou li:nth-child(9) s{
+	background: url(../img/floor_tit_icon.png) -414px 0px ;
+}
+#lou li:nth-child(9) b{
+	color: #940505;
+}
+#lou li:nth-child(10) s{
+	background: url(../img/floor_tit_icon.png) -531px 0px ;
+}
+#lou li:nth-child(10) b{
+	color: #3ca3dc;
+}
+/*footer*/

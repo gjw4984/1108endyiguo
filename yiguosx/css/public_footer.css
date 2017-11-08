@@ -1,0 +1,236 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, 
+legend, input, button, textarea, blockquote, th, td, p {
+    margin: 0;
+    padding: 0;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.f01{
+	width: 100%;
+	height: 103px;
+	background:#e0e0e0;
+}
+.f001{
+	width: 1200px;
+	height: 103px;
+	margin: 0 auto;
+	/*background: skyblue;*/
+}
+.f0001{
+	width: 245px;
+	height: 73px;
+	/*background: #fff;*/
+	padding-top: 30px;
+	padding-left: 55px;
+	float: left;
+}
+.f0001 h3{
+	font-size: 18px;
+	color: #007f4d;
+	font-weight: 100;
+}
+.f0001 p{
+	font-size: 12px;
+	color: #444;
+}
+.f0001 s{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background: url(../img/footer_service_icon.png) no-repeat 0px 0px;
+	border-right: 1px solid #a6a6a6;
+	padding-right: 13px;
+	margin-right: 15px;
+	float: left;
+}
+.f001 div:nth-child(2) s{
+	background: url(../img/footer_service_icon.png) no-repeat 0px -43px;
+}
+.f001 div:nth-child(3) s{
+	background: url(../img/footer_service_icon.png) no-repeat 0px -84px;
+}
+.f001 div:nth-child(4) s{
+	background: url(../img/footer_service_icon.png) no-repeat 0px -128px;
+}
+.f02{
+	width: 1263px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.f02:after{
+	content: ".";
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+	display: block;
+}
+.f002{
+	width: 167px;
+	height: 186px;
+	padding-top: 50px;
+	padding-left: 85px;
+	float: left;
+}
+.f002 p{
+	height: 23px;
+	background: url(../img/footer_icon.png) no-repeat -5px -1px;
+	text-indent: 35px;
+	font-size: 14px;
+	color: #444;
+	font-family: simsun;
+}
+.f002 ul{
+	border-left: 1px dashed #a8a8a8;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding-left: 20px;
+	min-height: 110px;
+	font-family: simsun;
+}
+.f002 li{
+	line-height: 24px;
+	font-size: 12px;
+	color: #575556;
+	cursor: pointer;
+}
+.f002 li:hover{
+	color: #008842;
+}
+.f02 div:nth-child(2) p{
+	background: url(../img/footer_icon.png) no-repeat -4px -24px;
+}
+.f02 div:nth-child(3) p{
+	background: url(../img/footer_icon.png) no-repeat -4px -46px;
+}
+.f02 div:nth-child(4) p{
+	background: url(../img/footer_icon.png) no-repeat -4px -69px;
+}
+.f02 div:nth-child(5) p{
+	background: url(../img/footer_icon.png) no-repeat -4px -93px;
+}
+.f03{
+	width: 1263px;
+	height: 180px;
+	margin: 0 auto;
+	/*background: skyblue;*/
+	text-align: center;
+	overflow: hidden;
+	font-family: simsun;
+}
+.f03 p:nth-child(1){
+	font-size: 14px;
+	color: #008842;
+	margin: 22px 0px 22px 0px;
+}
+.f03 p:nth-child(2){
+	font-size: 12px;
+	color: #717171;
+}
+.f03 p:nth-child(3){
+	font-size: 12px;
+	color: #717171;
+	margin: 7px 0px 7px 0px;
+}
+.f03 p:nth-child(4){
+	height: 40px;
+	line-height: 35px;
+	font-size: 12px;
+	color: #939393;
+	text-align: start;
+	padding-left: 465px;
+	margin-top: 20px;
+}
+.f03 p:nth-child(4) img{
+	margin: 5px;
+	float: left;
+}
+#dw{
+	width: 60px;
+	height: 100px;
+	/*background: skyblue;*/
+	position: fixed;
+	right: 5px;
+	bottom: 25px;
+}
+.kefu{
+	width: 50px;
+	height: 42px;
+	background: url(../img/sidebar.png) no-repeat 0px -46px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.kefu:hover{
+	background: url(../img/sidebar.png) no-repeat -56px -46px;
+}
+.zhid{
+	width: 50px;
+	height: 42px;
+	background: url(../img/sidebar.png) no-repeat;
+	cursor: pointer;
+	display: none;
+}
+.zhid:hover{
+	background: url(../img/sidebar.png) no-repeat -56px 0px;
+}
+#luoti{
+	position: fixed;
+	top: 25%;
+	left: 0px;
+}
+#luoti li{
+	width: 40px;
+	height: 40px;
+	background: url(../img/floor_guide.png) no-repeat ;
+	border: 1px solid #008842;
+	text-align: center;
+	display: none;
+}
+#luoti li span{
+	visibility: hidden;
+	color: #fff;
+	font-size: 14px;
+}
+
+#luoti li:nth-child(2){
+	background: url(../img/floor_guide.png) no-repeat -40px;
+}
+#luoti li:nth-child(3){
+	background: url(../img/floor_guide.png) no-repeat -240px;
+}
+#luoti li:nth-child(4){
+	background: url(../img/floor_guide.png) no-repeat -160px;
+}
+#luoti li:nth-child(5){
+	background: url(../img/floor_guide.png) no-repeat -80px;
+}
+#luoti li:nth-child(6){
+	background: url(../img/floor_guide.png) no-repeat -120px;
+}
+#luoti li:nth-child(7){
+	background: url(../img/floor_guide.png) no-repeat -320px;
+}
+#luoti li:nth-child(8){
+	background: url(../img/floor_guide.png) no-repeat -200px;
+}
+#luoti li:nth-child(9){
+	background: url(../img/floor_guide.png) no-repeat -360px;
+}
+#luoti li:nth-child(10){
+	background: url(../img/floor_guide.png) no-repeat -280px;
+}
+#luoti li:hover{
+	background: #008842;
+}
+#luoti li:hover span{
+	visibility: visible;
+}
+
+

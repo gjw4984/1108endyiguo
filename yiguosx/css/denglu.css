@@ -1,0 +1,218 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, 
+legend, input, button, textarea, blockquote, th, td, p {
+    margin: 0;
+    padding: 0;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background: #F7F9F8;
+}
+
+#headr{
+	height: 70px;
+	background: #e0e0e0;
+}
+.hnav{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	vertical-align: middle;
+	line-height: 70px;
+	font-size: 28px;
+	color: #008842;
+}
+.hnav img{
+	float: left;
+	margin-right: 93px;
+	margin-top: 10px;
+}
+#banner{
+	height: 485px;
+	background: #fff;
+}
+.banner_center{
+	width: 1200px;
+	height: 435px;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.banner_left img{
+	float: left;
+}
+.banner_right{
+	width: 310px;
+	height: 384px;
+	border: 1px solid #e3e6e0;
+	float: right;
+	margin-right: 105px;
+	padding: 30px 20px 20px 20px;
+}
+.banner_right ul li:after{
+	content: ".";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+}
+.banner_right ul li{
+	margin-bottom: 20px;
+}
+.banner_right ul li:first-child h2{
+	float: left;
+	font-size: 18px;
+	font-weight: 100;
+	color: #262626;
+}
+.banner_right ul li:first-child span{
+	float: right;
+	font-size: 12px;
+	color: #878787;
+	font-family: simsun;
+}
+.banner_right ul li:first-child a{
+	font-size: 12px;
+	color: #008842;
+	text-decoration: underline;
+}
+.banner_right #uname,#upwd,#yz{
+	width: 304px;
+	height: 38px;
+	background: url(../img/bg_input.png) no-repeat 0px -120px;
+	text-indent: 50px;
+	border: 1px solid #C1C1C1;
+}
+.banner_right #upwd,#yz{
+	background: url(../img/bg_input.png) no-repeat 0px -180px;
+}
+.banner_right #yz{
+	width:150px;
+	height: 38px;
+}
+.banner_right ul li:nth-child(4) s{
+	display: inline-block;
+	width: 46px;
+	height: 22px;
+	background: url(../img/verifycode1.jpg);
+}
+.banner_right ul li:nth-child(4) a{
+	font-size: 12px;
+	color: #878787;
+	font-family: simsun;
+}
+.banner_right ul li:nth-child(4) a:hover{
+	color: #008842;
+}
+.banner_right ul li:nth-child(5) a{
+	float: right;
+	font-size: 12px;
+	color:#878787 ;
+	font-family: simsun;
+}
+.banner_right ul li:nth-child(5) a:hover{
+	color:#008842 ;
+}
+.banner_right ul li:nth-child(5) span{
+	font-size: 12px;
+	color:#878787 ;
+	margin-left: 14px;
+	font-family: simsun;
+}
+.banner_right #btt{
+	width: 100%;
+	height: 50px;
+	background: #008842;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	font-size: 18px;
+	color: #fff;
+}
+.banner_right #btt:hover{
+	background: #09964e;
+}
+.banner_right ul li:nth-child(7){
+	color:#878787 ;
+	font-family: simsun;
+	font-size: 12px;
+	line-height: 24px;
+}
+.banner_right ul li:nth-child(7) a{
+	display: inline-block;
+	width: 200px;
+	height: 24px;
+	background: #ffebeb;
+	color:red ;
+	border: 1px solid red;
+	float: right;
+	text-align: center;
+	line-height: 24px;
+	display: none;
+}
+.banner_right ul li:nth-child(8) b,i,s{
+	display: inline-block;
+	width: 88px;
+	height: 20px;
+	background: url(../img/bg_login.png) no-repeat -60px -200px;
+	cursor: pointer;
+}
+.banner_right ul li:nth-child(8) i{
+	background: url(../img/bg_login.png) no-repeat -160px -200px;
+	margin-left:20px ;
+	margin-right: 20px;
+}
+.banner_right ul li:nth-child(8) s{
+	background: url(../img/bg_login.png) no-repeat -260px -200px;
+}
+/*遮罩层*/
+#zzc{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	display: none;
+}
+.zzc_banner{
+	width: 410px;
+	height: 250px;
+	border: 1px solid #c7c7c7;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -170px 0px 0px -250px;
+	padding: 45px;
+	background: #fff;
+	text-align: center;
+}
+.zzc_banner em{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	right: 14px;
+	top: 14px;
+	background: url(../img/cha.png);
+	cursor: pointer;
+}
+.zzc_top{
+	font-family: simsun;
+	line-height: 25px;
+	margin-bottom: 38px;
+}
+.zzc_bot{
+	margin-left:45px ;
+}
+
+
+

@@ -1,0 +1,185 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, 
+legend, input, button, textarea, blockquote, th, td, p {
+    margin: 0;
+    padding: 0;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{
+	background: #F7F9F8;
+}
+#headr{
+	height: 70px;
+	background: #e0e0e0;
+}
+.hnav{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+	vertical-align: middle;
+	line-height: 70px;
+	font-size: 28px;
+	color: #008842;
+}
+.hnav img{
+	float: left;
+	margin-right: 93px;
+	margin-top: 10px;
+}
+#p1{
+	width: 1260px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #444;
+	overflow: hidden;
+}
+#p1 p{
+	float: right;
+	margin-right: 66px;
+	margin-top: 38px;
+}
+#p1 a{
+	font-size: 14px;
+	color: #ef760a;
+	text-decoration: underline;
+}
+#con{
+	width: 1200px;
+	height: 592px;
+	padding-top: 40px;
+	background: #fff;
+	border: 1px solid #c4dfb1;
+	margin: 0 auto;
+	margin-top: 13px;
+	margin-bottom: 30px;
+}
+#con p span,input,img,em,.pa{
+	float: left;
+}
+#con span{
+	display: inline-block;
+	width: 220px;
+	text-align: right;
+	margin-right: 24px;
+	font-size: 14px;
+	color: #444;
+}
+#con input{
+	width: 160px;
+	height: 36px;
+	margin-right: 24px;
+	text-indent: 10px;
+	border: 1px solid #c1c1c1;
+}
+#con a{
+	display: inline-block;
+	margin-right: 24px;
+	font-size: 14px;
+	color: #666;
+}
+#con b{
+	font-size: 14px;
+	color: red;
+	font-weight: 100;
+	display: none;
+}
+#con b i{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/bg_login.png) no-repeat -40px -200px;
+	margin-right: 14px;
+	vertical-align: middle;
+}
+#con p{
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+#con p em{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/bg_login.png) no-repeat 0px -200px;
+	margin-right: 14px;
+	margin-top: 14px;
+	display: none;
+}
+#con #inp1{
+	width: 304px;
+	background: url(../img/bg_input.png) no-repeat 276px -30px;
+}
+#con #inp3,#con #inp4,#con #inp5{
+	width: 304px;
+	background: url(../img/bg_input.png) no-repeat 276px -70px;
+}
+#con #but{
+	width: 121px;
+	background: #f7f7f7;
+	font-size: 14px;
+	color: #008842;
+	outline: none;
+	cursor: pointer;
+}
+#con #che1{
+	width: 13px;
+	height: 13px;
+	margin-left: 240px;
+	margin-right: 0px;
+}
+#con #p2{
+	height:20px;
+	line-height: 11px;
+}
+#con #p2 span s{
+	color: #008842;
+	text-decoration: none;
+	cursor: pointer;
+}
+#con #btn{
+	margin-left: 240px;
+	margin-top: -10px;
+	width: 306px;
+	height: 50px;
+	color: #fff;
+	background-color: gray;
+	font-size: 18px;
+	text-indent: 0;
+	cursor: pointer;
+	outline: none;
+}
+#con .datu{
+	float: right;
+	margin-right: 144px;
+	margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
